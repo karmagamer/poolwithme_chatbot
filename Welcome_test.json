@@ -1,0 +1,153 @@
+{
+  "id": "56eb1a83-c4d3-456d-bfeb-189c02e88c34",
+  "name": "Welcome_test",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hi ! Thank you for a contacting Poolwith.me. \nGet started by asking for a ride or pickup."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1512023380,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "2f50e256-114e-4cd4-ba17-6d93c12e1fc3",
+      "data": [
+        {
+          "text": "hola !"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ba2f3ee2-c73d-4d35-bec8-262d5ec7a28d",
+      "data": [
+        {
+          "text": "hola"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4561b481-66f0-4cb6-8860-8bf87e8e235a",
+      "data": [
+        {
+          "text": "hola ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512023380,
+      "isAuto": false
+    },
+    {
+      "id": "0ca90f03-5a24-44ba-81ad-7c766a99c8d5",
+      "data": [
+        {
+          "text": "what up ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512023380,
+      "isAuto": false
+    },
+    {
+      "id": "3351f01b-52fd-468b-a7b0-8e19c2d45a71",
+      "data": [
+        {
+          "text": "how you doing ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512023380,
+      "isAuto": false
+    },
+    {
+      "id": "bb295ea2-979b-43c3-8ff6-be48d5e48fb8",
+      "data": [
+        {
+          "text": "what's up ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512023380,
+      "isAuto": false
+    },
+    {
+      "id": "d21832b0-f635-462c-8a99-5876d86b1483",
+      "data": [
+        {
+          "text": "what is up ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512023380,
+      "isAuto": false
+    },
+    {
+      "id": "1e9060b2-2b83-4a19-8ab4-1d088c2c51bc",
+      "data": [
+        {
+          "text": "hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512023380,
+      "isAuto": false
+    },
+    {
+      "id": "c9db2c4e-4759-4e0d-8fcc-a9cfc96be36b",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512023380,
+      "isAuto": false
+    },
+    {
+      "id": "3f2d65de-f45f-4b1e-b588-592298ca15fb",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512023380,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

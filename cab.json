@@ -1,0 +1,181 @@
+{
+  "id": "2e5a0178-4ec1-480a-bd7b-745a4a56719a",
+  "name": "cab",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "70e6e46e-b626-4cc1-b64e-3e455370fa41",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            "Travelling to Which place?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sure we will book your cab to $geo-city, What is your area pin code for pickup?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1512019724,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "cf642401-6105-492a-ab45-a794261e133f",
+      "data": [
+        {
+          "text": "i need a ride to "
+        },
+        {
+          "text": "san francisco",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a471194c-a6d8-4242-baa4-1004860c0d67",
+      "data": [
+        {
+          "text": "need to book"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1512019724,
+      "isAuto": false
+    },
+    {
+      "id": "0c0d4133-940d-41a3-a62b-d2ff23cfea6c",
+      "data": [
+        {
+          "text": "taxi",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019724,
+      "isAuto": false
+    },
+    {
+      "id": "2df1a04f-58ce-4a38-8901-bb9e696c5653",
+      "data": [
+        {
+          "text": "cab "
+        },
+        {
+          "text": "delhi",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019724,
+      "isAuto": false
+    },
+    {
+      "id": "85acaabc-e9ab-4e3a-bfc5-0b464ad5b13d",
+      "data": [
+        {
+          "text": "cab to "
+        },
+        {
+          "text": "delhi",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019724,
+      "isAuto": false
+    },
+    {
+      "id": "5154cb9f-f33c-43ae-bcf0-981b79cecc39",
+      "data": [
+        {
+          "text": "I want a cab to "
+        },
+        {
+          "text": "delhi",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019724,
+      "isAuto": false
+    },
+    {
+      "id": "ecae98f1-39ba-47f9-ae8f-cba5cfe34986",
+      "data": [
+        {
+          "text": "I need a cab to "
+        },
+        {
+          "text": "agra",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1512019724,
+      "isAuto": false
+    },
+    {
+      "id": "e8e6e27d-1691-4db0-9223-b984ec8a247f",
+      "data": [
+        {
+          "text": "I need a cab to "
+        },
+        {
+          "text": "delhi",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019724,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

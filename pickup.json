@@ -1,0 +1,233 @@
+{
+  "id": "b6ef4854-6d7e-4095-bfe4-fbdc300146d3",
+  "name": "pickup",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ec3a2941-f657-46f7-b2c6-6e3d860812c1",
+          "required": true,
+          "dataType": "@sys.zip-code",
+          "name": "zip-code",
+          "value": "$zip-code",
+          "prompts": [
+            "enter pin code for pickup"
+          ],
+          "isList": false
+        },
+        {
+          "id": "f8cc83ce-1b56-4796-94a1-2c8273083b6a",
+          "required": true,
+          "dataType": "@sys.address",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            "What's your address for pickup ?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Your ride is on the way to $address. Thanks for using Poolwith.me."
+        },
+        {
+          "type": 0,
+          "speech": "Your ride is on the way to $address. Thanks for using poolwith.me."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1512019751,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "68a28d49-1b42-4e31-9cfa-e01d67db4ea3",
+      "data": [
+        {
+          "text": "pick me up from current location."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "df760705-e028-4a4c-8c54-b2dd7fe6b6d6",
+      "data": [
+        {
+          "text": "can I get a ride ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "34805a83-a943-473d-a11c-43a32332ccc6",
+      "data": [
+        {
+          "text": "i need a ride"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5524fbb3-3eaa-44d2-bcbc-93cd1b960560",
+      "data": [
+        {
+          "text": "pick me from "
+        },
+        {
+          "text": "201 s 10 st",
+          "alias": "address",
+          "meta": "@sys.address",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "da4d3b28-ba5c-47fc-8f00-61cf08a6a965",
+      "data": [
+        {
+          "text": "pick me up from "
+        },
+        {
+          "text": "starbucks",
+          "alias": "address",
+          "meta": "@sys.address",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e03e6cb9-e30a-4392-a9ac-2ac0a8325e36",
+      "data": [
+        {
+          "text": "201313",
+          "alias": "zip-code",
+          "meta": "@sys.zip-code",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019751,
+      "isAuto": false
+    },
+    {
+      "id": "7c4e5c0c-b30f-405a-88de-7a45d4bfe2a1",
+      "data": [
+        {
+          "text": "sector B block, Noida"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019751,
+      "isAuto": false
+    },
+    {
+      "id": "608cb3fb-9f77-4874-977c-5acd0019e5cd",
+      "data": [
+        {
+          "text": "pick me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019751,
+      "isAuto": false
+    },
+    {
+      "id": "34a7b297-8425-4132-95db-ab2b769ad361",
+      "data": [
+        {
+          "text": "pick"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019751,
+      "isAuto": false
+    },
+    {
+      "id": "023532c4-efe5-4124-9407-be160af0f230",
+      "data": [
+        {
+          "text": "pick me up from"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019751,
+      "isAuto": false
+    },
+    {
+      "id": "38046714-f203-426f-b811-704893bd3d9f",
+      "data": [
+        {
+          "text": "pickup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019751,
+      "isAuto": false
+    },
+    {
+      "id": "09ee5461-d1d1-4a4e-8dfe-f883cb5e86be",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "pickup",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " zipcode is "
+        },
+        {
+          "text": "201303",
+          "alias": "zip-code",
+          "meta": "@sys.zip-code",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1512019751,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
